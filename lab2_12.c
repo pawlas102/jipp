@@ -204,14 +204,66 @@ static int obwodprostokata(void)
 
 int main(void)
 {
-    if (polekwadrat() != 0) return 1;
-    if (obwodkwadrat() != 0) return 1;
-    if (poletrojkat() != 0) return 1;
-    if (obwodtrojkat() != 0) return 1;
-    if (polekola() != 0) return 1;
-    if (obwodkola() != 0) return 1;
-    if (poleprostokata() != 0) return 1;
-    if (obwodprostokata() != 0) return 1;
+    int wybor;
+
+    do
+    {
+        printf("\n=============================\n");
+        printf("   KALKULATOR GEOMETRYCZNY   \n");
+        printf("=============================\n");
+        printf("1. Pole kwadratu\n");
+        printf("2. Obwod kwadratu\n");
+        printf("3. Pole trojkata\n");
+        printf("4. Obwod trojkata\n");
+        printf("5. Pole kola\n");
+        printf("6. Obwod kola\n");
+        printf("7. Pole prostokata\n");
+        printf("8. Obwod prostokata\n");
+        printf("0. Wyjscie\n");
+        printf("Wybierz opcje: ");
+
+        if (scanf("%d", &wybor) != 1)
+        {
+            printf("Blad: podaj poprawna liczbe!\n");
+            czysc_bufor();
+            continue;
+        }
+
+        switch (wybor)
+        {
+            case 1:
+                polekwadrat();
+                break;
+            case 2:
+                obwodkwadrat();
+                break;
+            case 3:
+                poletrojkat();
+                break;
+            case 4:
+                obwodtrojkat();
+                break;
+            case 5:
+                polekola();
+                break;
+            case 6:
+                obwodkola();
+                break;
+            case 7:
+                poleprostokata();
+                break;
+            case 8:
+                obwodprostokata();
+                break;
+            case 0:
+                printf("Koniec programu.\n");
+                break;
+            default:
+                printf("Niepoprawny wybor! Wybierz cyfre od 0 do 8.\n");
+                break;
+        }
+
+    } while (wybor != 0);
 
     return 0;
 }
