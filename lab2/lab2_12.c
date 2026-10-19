@@ -3,20 +3,21 @@
 
 #define PI 3.14159265358979323846
 
-static void czysc_bufor(void)
+static void bezpiecznik()
 {
     int c;
-    while ((c = getchar()) != '\n' && c != EOF);
+    while ((c = getchar()) != '\n' && c != EOF)
+        ;
 }
 
-static int polekwadrat(void)
+static int polekwadrat()
 {
     double a;
     printf("Podaj dlugosc boku kwadratu: ");
     if (scanf("%lf", &a) != 1)
     {
         printf("Blad: podaj liczbe\n");
-        czysc_bufor();
+        bezpiecznik();
         return 1;
     }
 
@@ -30,14 +31,14 @@ static int polekwadrat(void)
     return 0;
 }
 
-static int obwodkwadrat(void)
+static int obwodkwadrat()
 {
     double a;
     printf("Podaj dlugosc boku kwadratu: ");
     if (scanf("%lf", &a) != 1)
     {
         printf("Blad: podaj liczbe\n");
-        czysc_bufor();
+        bezpiecznik();
         return 1;
     }
 
@@ -51,14 +52,14 @@ static int obwodkwadrat(void)
     return 0;
 }
 
-static int poletrojkat(void)
+static int poletrojkat()
 {
     double a, b, c;
     printf("Podaj dlugosci bokow trojkata (a b c): ");
     if (scanf("%lf %lf %lf", &a, &b, &c) != 3)
     {
         printf("Blad: podaj trzy liczby\n");
-        czysc_bufor();
+        bezpiecznik();
         return 1;
     }
 
@@ -81,14 +82,14 @@ static int poletrojkat(void)
     return 0;
 }
 
-static int obwodtrojkat(void)
+static int obwodtrojkat()
 {
     double a, b, c;
     printf("Podaj dlugosci bokow trojkata (a b c): ");
     if (scanf("%lf %lf %lf", &a, &b, &c) != 3)
     {
         printf("Blad: podaj trzy liczby\n");
-        czysc_bufor();
+        bezpiecznik();
         return 1;
     }
 
@@ -110,14 +111,14 @@ static int obwodtrojkat(void)
     return 0;
 }
 
-static int polekola(void)
+static int polekola()
 {
     double r;
     printf("Podaj promien kola: ");
     if (scanf("%lf", &r) != 1)
     {
         printf("Blad: podaj liczbe\n");
-        czysc_bufor();
+        bezpiecznik();
         return 1;
     }
 
@@ -133,14 +134,14 @@ static int polekola(void)
     return 0;
 }
 
-static int obwodkola(void)
+static int obwodkola()
 {
     double r;
     printf("Podaj promien kola: ");
     if (scanf("%lf", &r) != 1)
     {
         printf("Blad: podaj liczbe\n");
-        czysc_bufor();
+        bezpiecznik();
         return 1;
     }
 
@@ -156,14 +157,14 @@ static int obwodkola(void)
     return 0;
 }
 
-static int poleprostokata(void)
+static int poleprostokata()
 {
     double a, b;
     printf("Podaj dlugosci bokow prostokata (a b): ");
     if (scanf("%lf %lf", &a, &b) != 2)
     {
         printf("Blad: podaj dwie liczby\n");
-        czysc_bufor();
+        bezpiecznik();
         return 1;
     }
 
@@ -179,14 +180,14 @@ static int poleprostokata(void)
     return 0;
 }
 
-static int obwodprostokata(void)
+static int obwodprostokata()
 {
     double a, b;
     printf("Podaj dlugosci bokow prostokata (a b): ");
     if (scanf("%lf %lf", &a, &b) != 2)
     {
         printf("Blad: podaj dwie liczby\n");
-        czysc_bufor();
+        bezpiecznik();
         return 1;
     }
 
@@ -202,68 +203,24 @@ static int obwodprostokata(void)
     return 0;
 }
 
-int main(void)
+int main()
 {
-    int wybor;
-
-    do
-    {
-        printf("\n=============================\n");
-        printf("   KALKULATOR GEOMETRYCZNY   \n");
-        printf("=============================\n");
-        printf("1. Pole kwadratu\n");
-        printf("2. Obwod kwadratu\n");
-        printf("3. Pole trojkata\n");
-        printf("4. Obwod trojkata\n");
-        printf("5. Pole kola\n");
-        printf("6. Obwod kola\n");
-        printf("7. Pole prostokata\n");
-        printf("8. Obwod prostokata\n");
-        printf("0. Wyjscie\n");
-        printf("Wybierz opcje: ");
-
-        if (scanf("%d", &wybor) != 1)
-        {
-            printf("Blad: podaj poprawna liczbe!\n");
-            czysc_bufor();
-            continue;
-        }
-
-        switch (wybor)
-        {
-            case 1:
-                polekwadrat();
-                break;
-            case 2:
-                obwodkwadrat();
-                break;
-            case 3:
-                poletrojkat();
-                break;
-            case 4:
-                obwodtrojkat();
-                break;
-            case 5:
-                polekola();
-                break;
-            case 6:
-                obwodkola();
-                break;
-            case 7:
-                poleprostokata();
-                break;
-            case 8:
-                obwodprostokata();
-                break;
-            case 0:
-                printf("Koniec programu.\n");
-                break;
-            default:
-                printf("Niepoprawny wybor! Wybierz cyfre od 0 do 8.\n");
-                break;
-        }
-
-    } while (wybor != 0);
+    if (polekwadrat() != 0)
+        return 1;
+    if (obwodkwadrat() != 0)
+        return 1;
+    if (poletrojkat() != 0)
+        return 1;
+    if (obwodtrojkat() != 0)
+        return 1;
+    if (polekola() != 0)
+        return 1;
+    if (obwodkola() != 0)
+        return 1;
+    if (poleprostokata() != 0)
+        return 1;
+    if (obwodprostokata() != 0)
+        return 1;
 
     return 0;
 }

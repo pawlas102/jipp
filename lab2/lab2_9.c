@@ -42,10 +42,6 @@ int main(int argc, char *argv[])
     double D = -1.0; // to jest inicjalizacje zmiennej
     D = b * b - 4.0 * a * c;
 
-
-
-
-
     // czesc zajmujaca sie pierwiastkami zespolonymi
     if (D < 0.0)
     {
@@ -59,10 +55,6 @@ int main(int argc, char *argv[])
         my_return();
     }
 
-
-
-
-    
     // Obliczenie pierwiastkow
     double p1, p2, x1, x2;
 
