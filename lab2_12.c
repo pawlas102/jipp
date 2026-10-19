@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-#define pi 3.14159265358979323846
 
+#define pi 3.14159265358979323846
 
 static int polekwadrat()
 {
@@ -10,6 +10,7 @@ static int polekwadrat()
     if (scanf("%lf", &a) != 1)
     {
         printf("Blad: podaj liczbe\n");
+        return 1;
     }
 
     if (a <= 0)
@@ -27,9 +28,9 @@ static int obwodkwadrat()
     double a;
     printf("Podaj dlugosc boku kwadratu: ");
     if (scanf("%lf", &a) != 1)
-        ;
     {
         printf("Blad: podaj liczbe\n");
+        return 1;
     }
 
     if (a <= 0)
@@ -47,9 +48,9 @@ static int poletrojkat()
     double a, b, c;
     printf("Podaj dlugosci bokow trojkata (a b c): ");
     if (scanf("%lf %lf %lf", &a, &b, &c) != 3)
-        ;
     {
         printf("Blad: podaj trzy liczby\n");
+        return 1;
     }
 
     if (a <= 0 || b <= 0 || c <= 0)
@@ -76,9 +77,9 @@ static int obwodtrojkat()
     double a, b, c;
     printf("Podaj dlugosci bokow trojkata (a b c): ");
     if (scanf("%lf %lf %lf", &a, &b, &c) != 3)
-        ;
     {
         printf("Blad: podaj trzy liczby\n");
+        return 1;
     }
 
     if (a <= 0 || b <= 0 || c <= 0)
@@ -104,9 +105,9 @@ static int polekola()
     double r;
     printf("Podaj promien kola: ");
     if (scanf("%lf", &r) != 1)
-        ;
     {
         printf("Blad: podaj liczbe\n");
+        return 1;
     }
 
     if (r <= 0)
@@ -126,9 +127,9 @@ static int obwodkola()
     double r;
     printf("Podaj promien kola: ");
     if (scanf("%lf", &r) != 1)
-        ;
     {
         printf("Blad: podaj liczbe\n");
+        return 1;
     }
 
     if (r <= 0)
@@ -142,14 +143,15 @@ static int obwodkola()
     printf("Obwod kola: %.6f\n", obwod);
     return 0;
 }
+
 static int poleprostokata()
 {
     double a, b;
     printf("Podaj dlugosci bokow prostokata (a b): ");
     if (scanf("%lf %lf", &a, &b) != 2)
-        ;
     {
         printf("Blad: podaj dwie liczby\n");
+        return 1;
     }
 
     if (a <= 0 || b <= 0)
@@ -169,9 +171,9 @@ static int obwodprostokata()
     double a, b;
     printf("Podaj dlugosci bokow prostokata (a b): ");
     if (scanf("%lf %lf", &a, &b) != 2)
-        ;
     {
         printf("Blad: podaj dwie liczby\n");
+        return 1;
     }
 
     if (a <= 0 || b <= 0)
@@ -185,6 +187,7 @@ static int obwodprostokata()
     printf("Obwod prostokata: %.6f\n", obwod);
     return 0;
 }
+
 int main()
 {
     polekwadrat();
@@ -195,7 +198,6 @@ int main()
     obwodkola();
     poleprostokata();
     obwodprostokata();
+
+    return 0;
 }
-
-
-
