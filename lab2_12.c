@@ -1,15 +1,22 @@
 #include <stdio.h>
 #include <math.h>
 
-#define pi 3.14159265358979323846
+#define PI 3.14159265358979323846
 
-static int polekwadrat()
+static void czysc_bufor(void)
+{
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF);
+}
+
+static int polekwadrat(void)
 {
     double a;
     printf("Podaj dlugosc boku kwadratu: ");
     if (scanf("%lf", &a) != 1)
     {
         printf("Blad: podaj liczbe\n");
+        czysc_bufor();
         return 1;
     }
 
@@ -19,17 +26,18 @@ static int polekwadrat()
         return 1;
     }
 
-    printf("Pole kwadratu: %lf\n", a * a);
+    printf("Pole kwadratu: %.6f\n", a * a);
     return 0;
 }
 
-static int obwodkwadrat()
+static int obwodkwadrat(void)
 {
     double a;
     printf("Podaj dlugosc boku kwadratu: ");
     if (scanf("%lf", &a) != 1)
     {
         printf("Blad: podaj liczbe\n");
+        czysc_bufor();
         return 1;
     }
 
@@ -39,17 +47,18 @@ static int obwodkwadrat()
         return 1;
     }
 
-    printf("Obwod kwadratu: %lf\n", 4 * a);
+    printf("Obwod kwadratu: %.6f\n", 4 * a);
     return 0;
 }
 
-static int poletrojkat()
+static int poletrojkat(void)
 {
     double a, b, c;
     printf("Podaj dlugosci bokow trojkata (a b c): ");
     if (scanf("%lf %lf %lf", &a, &b, &c) != 3)
     {
         printf("Blad: podaj trzy liczby\n");
+        czysc_bufor();
         return 1;
     }
 
@@ -72,13 +81,14 @@ static int poletrojkat()
     return 0;
 }
 
-static int obwodtrojkat()
+static int obwodtrojkat(void)
 {
     double a, b, c;
     printf("Podaj dlugosci bokow trojkata (a b c): ");
     if (scanf("%lf %lf %lf", &a, &b, &c) != 3)
     {
         printf("Blad: podaj trzy liczby\n");
+        czysc_bufor();
         return 1;
     }
 
@@ -100,13 +110,14 @@ static int obwodtrojkat()
     return 0;
 }
 
-static int polekola()
+static int polekola(void)
 {
     double r;
     printf("Podaj promien kola: ");
     if (scanf("%lf", &r) != 1)
     {
         printf("Blad: podaj liczbe\n");
+        czysc_bufor();
         return 1;
     }
 
@@ -116,19 +127,20 @@ static int polekola()
         return 1;
     }
 
-    double S = pi * r * r;
+    double S = PI * r * r;
 
     printf("Pole kola: %.6f\n", S);
     return 0;
 }
 
-static int obwodkola()
+static int obwodkola(void)
 {
     double r;
     printf("Podaj promien kola: ");
     if (scanf("%lf", &r) != 1)
     {
         printf("Blad: podaj liczbe\n");
+        czysc_bufor();
         return 1;
     }
 
@@ -138,19 +150,20 @@ static int obwodkola()
         return 1;
     }
 
-    double obwod = 2 * pi * r;
+    double obwod = 2 * PI * r;
 
     printf("Obwod kola: %.6f\n", obwod);
     return 0;
 }
 
-static int poleprostokata()
+static int poleprostokata(void)
 {
     double a, b;
     printf("Podaj dlugosci bokow prostokata (a b): ");
     if (scanf("%lf %lf", &a, &b) != 2)
     {
         printf("Blad: podaj dwie liczby\n");
+        czysc_bufor();
         return 1;
     }
 
@@ -166,13 +179,14 @@ static int poleprostokata()
     return 0;
 }
 
-static int obwodprostokata()
+static int obwodprostokata(void)
 {
     double a, b;
     printf("Podaj dlugosci bokow prostokata (a b): ");
     if (scanf("%lf %lf", &a, &b) != 2)
     {
         printf("Blad: podaj dwie liczby\n");
+        czysc_bufor();
         return 1;
     }
 
@@ -188,16 +202,16 @@ static int obwodprostokata()
     return 0;
 }
 
-int main()
+int main(void)
 {
-    polekwadrat();
-    obwodkwadrat();
-    poletrojkat();
-    obwodtrojkat();
-    polekola();
-    obwodkola();
-    poleprostokata();
-    obwodprostokata();
+    if (polekwadrat() != 0) return 1;
+    if (obwodkwadrat() != 0) return 1;
+    if (poletrojkat() != 0) return 1;
+    if (obwodtrojkat() != 0) return 1;
+    if (polekola() != 0) return 1;
+    if (obwodkola() != 0) return 1;
+    if (poleprostokata() != 0) return 1;
+    if (obwodprostokata() != 0) return 1;
 
     return 0;
 }
