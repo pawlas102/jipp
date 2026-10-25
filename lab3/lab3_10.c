@@ -1,16 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 
 void zamien(int *x, int *y);
 
 int main()
 {
     int x, y;
-    x=1;
-    y=2;
+    x = 1;
+    y = 2;
 
-    zamien(&x,&y);
+    zamien(&x, &y);
 
-    if(x==2 && y==1)
+    if (x == 2 && y == 1)
         printf("ok");
 }
 
