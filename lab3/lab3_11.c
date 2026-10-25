@@ -31,4 +31,4 @@ void z(double *x, double *y, int *nw, double *sol)
         *nw = 3;
     }
 }
-// wiem ze  x i y moglby byc bez wskaznika, ale to ramach przyzwyczajenia do wielu *
+// wiem ze  x i y moglby byc bez wskaznika, ale to w ramach przyzwyczajenia do wielu *

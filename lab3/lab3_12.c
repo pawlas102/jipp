@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 void rec(int *n, int *suma);
 
@@ -12,11 +12,10 @@ int main()
 
 void rec(int *n, int *suma)
 {
-    if(*n>0)
+    if (*n > 0)
     {
-        *suma+=*n;
-        *n-=1;
+        *suma += *n;
+        *n -= 1;
         rec(n, suma);
     }
 }
-
