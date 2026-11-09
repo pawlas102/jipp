@@ -1,0 +1,2131 @@
+` 
+W
+Ç ˆÌ
+Inf
+o rmatyki 
+i 
+M atem aty ki
+ 
+Po lite chniki K rako wskiej                       
+1
+ 
+'Ì Ç]„ ˆÇP uıÇP „u}Á v] 
+ 
+t
+ 
+studi a s tac jonar ne 2 0
+2
+6
+/2
+7
+ 
+Lab 
+5
+. 
+ ıs˚ ] Ì u] ˚vv˚ Ì vl}Á ˚X o ] ˚X’ lÍ v] l] ˆ} ıo ] X 
+˚„ i ˚ v Á ’lÍ v] l ZX 
+I ns tr ukcj a 
+s wi tc h,c as e.  
+Ç „ Ï ˚v] ˚Ì ˚] vl}Á ˚X 
+Funkc j e 
+teks tow e
+.
+ 
+1.
+ 
+cha r
+ 
+jest to typ 
+z na ko w y
+U µu}Ïo]Á]iÇ Ì› Ìv }Ï˚ Ç ı„ lı}Áv il}
+liczba z zakr esu 0 ..25 5  
+vÌ ı} U Ï lÏˆÇ Ìvl i˚’ „˚›„˚Ì˚vı}ÁvÇ ›u ]' ›„Ì ’Ái
+l} ˆ} ˆÇ Ìvl Á o(vµu ˚„Ç ÌvÇ Z ı} o]ÌÇ Ì ›„Ì˚ˆÌ]sµ ”ïîY íî ó ›} Ì} ’ıs˚ o]ÌÇ ’
+ Áv]˚Ïl} ˆu ]Ìvl ÁUou } PÇ} v˚„ Ïvˆ˚(]v]} Áv˚
+t
+ 
+v]˚} ˆ›} Á]ˆi’ıvˆ„ˆ}Á]
+ASCII)
+Ì›]’µi˚uÇÁ›}i˚ˆÇvÌÇZµˆÌÇ’s}Á Z~ÌvÌÇÁvÇu]›}’ı„ }(u]Ç
+}ˆ„v] }ˆ wµZ˚l’ ı}ÁÇZ ›]’vÇZ ›}ˆZˆÌÇ’s}Á Z
+Np. 'a' ; '7';  '!'; 
+'$ '.
+ 
+i.
+ 
+ ıs vl}Á 
+ 
+u} ’ıW 
+'z na k'
+ 
+ii.
+ 
+D ek laracja zm iennej znakowe j po przez podanie ko duznaku spacji
+ 
+ch ar
+ 
+i = 3 2;  
+/ / i  
+w
+ 
+z na k sp ac ji
+ 
+iii.
+ 
+b. D ek laracja zm iennej znako wej po przez podanie znaku 
+ 
+ch ar
+ 
+i =  
+' '
+; 
+//  i 
+w
+ 
+zn ak s pa cj i
+ 
+ 
+uu Y«« 
+ 
+#inclu de
+ 
+< stdi o.h>
+ 
+#inclu de
+ 
+< stdl ib.h >
+ 
+int
+ 
+ma in()
+ 
+{
+ 
+ 
+/*Kod yAS CII */
+ 
+ 
+int
+ 
+i =32 ;
+ 
+ 
+/*int i=' '; jes tpop r awne* /
+ 
+ 
+while
+ 
+(++i <1 28)
+ 
+ 
+{
+ 
+ 
+   
+pri ntf(
+"%3d %c "
+,i,  i);
+ 
+ 
+   
+if
+ 
+(!(( i 
+-
+ 
+32) %4))  printf (
+"
+\
+n"
+);
+ 
+ 
+}
+ 
+ 
+printf (
+"
+\
+n"
+);
+ 
+}
+ 
+//Zmie nne znak owe wypro w adzani ezn ak
+
+w
+,
+ 
+i+ +
+ 
+#inclu de
+ 
+<
+stdi o.h>
+ 
+#inclu de
+ 
+< stdl ib.h >
+ 
+int
+ 
+ma in()
+ 
+{
+ 
+ 
+/*Kod yAS CII */
+ 
+ 
+char
+ 
+i = 
+' '
+;
+ 
+ 
+/*cha ri= 32; jes tpop r awne* /
+ 
+ 
+while
+ 
+(i++ <1 27)
+ 
+ 
+{
+ 
+ 
+   
+pri ntf(
+"%3d %c "
+,i,  i);
+ 
+ 
+   
+if
+ 
+(!(( i 
+-
+ 
+32) %4))  printf (
+"
+\
+n"
+);
+ 
+ 
+}
+ 
+ 
+printf (
+"
+\
+n"
+);
+ 
+}
+ 
+2.
+ 
+T
+yp 
+ch a r
+ 
+ı}ÌÁÇlo]Ì]u}ÏvP}µÏÇÁ
+
+ 
+taksamojaktypu 
+in t
+ 
+(zazwyczajmajednak 
+uv]˚i’Ì Ìl„ ˚ Á]'˚i o]ı˚„  Ìv ~v› ŒŒ ı„ lı }Áv i o]Ì i'Ì ’
+ıÇ›µ== Ç›µ„ 
+ 
+ 
+3.
+ 
+ ıs ı˚l’ ı}Á 
+ 
+t
+ 
+ˆ}Á} ovÇ ]P Ìv Ì›]’vÇ Á ›}’ı]W
+jj
+
+’ıs ˚iZ˚u Çµu ]˚‚ ]
+
+ 
+µˆÌÇvo˚ÏÇÁı˚ˆÇ›} ›„Ì˚ˆÌ]
+
+ 
+Ìvl_Ìvl]˚u
+\
+ 
+ıÌvµu ]˚‚ ]
+
+ 
+w 
+ı˚ l‚] ’˚l Á˚vi'
+\
+_u ›]oı} µu ]˚’ÌÌ ı˚ l } ˆ›} Á]˚ˆv P„µ›  ~í v
+sy m bo l). 
+ w µ’ ıs˚i ˚l’ı}Á ˚i›] ’Ç Á vÇ ˚’ÌvˆÌ ] ˚ ˚„ }Uo ]Çu}o 
+\
+ì[
+.
+ 
+j j
+ 
+ î î Ìv ’›iu ]X ]l}u ›µı˚ „ s 
+zajm ie2 3B razem  ze znakiem  
+\
+0.
+ 
+4.
+ 
+T abl ic e z nakow e
+ 
+t
+ 
+µÏÇÁv ˆ Ì› ]Pµ Ìv ›u]'] l}u›µı˚„ ]P Ìv
+~Á ]˚„ ı˚l ’ i˚’ı µu]˚’ÌÌv Á l}o˚ivÇZ iıZ ›u]']ˆ Ìv ı˚P} ]Pµ ı}
+odpowiedni element tablicy znakowej.
+ 
+D efinicjatablicy znakowe j:  
+ch ar
+ 
+t ek st [n um ];
+ 
+gdzie:  
+teks t
+ 
+t
+ 
+to nazwa ( identy fikato r) tablicy , num 
+t
+ 
+u l’Çu ovlu ]vµ ˆ˚v
+t
+ 
+tzw. ro zm iar t ablicy
+;
+ 
+m
+µ’]˚(]v]} ÁvÇ}ısX
+ 
+
+ 
+W
+Ç ˆÌ
+Inf
+o rmatyki 
+i 
+M atem aty ki
+ 
+Po lite chniki K rako wskiej                       
+2
+ 
+˚vıÇ o]Çu˚„}Áv} ˆ 
+-
+í vµu ˚„Ç o˚u ˚vı Á} ÌÁX˚l ’Ç o]Ç 
+ 
+… e— Y… h —Y] Y… 
+-
+2] , te ks t [n
+-
+1]
+ 
+przy  czym  
+tekst [n
+-
+1]
+ 
+-
+> '
+\
+ì Œ ›u ]' Ì„˚Ì˚„Á} v vµu ˚o˚u ˚vı ÁW vµu E vX
+sv] ˆ} ˚o˚u ıo]Ç } ]vˆ˚ v’ı' ›µ ›} ›„Ì µÏÇ } ›˚„ı} v›
+te ks t[ i]
+ lÏˆÇu o˚u ˚v]u } Ïv]’ Ç ol} ˆ v›
+tek st [1 ]
+= 'a'.
+ 
+ 
+uuh •
+-
+ta blic e 
+teksto we
+ 
+#inclu de
+ 
+< stdi o.h>
+ 
+#inclu de
+ 
+< stdl ib.h >
+ 
+#defin e
+ 
+MA X_LI NE
+ 
+2 56
+ 
+int
+ 
+ma in()
+ 
+{
+ 
+/*Ile razy lit era apow t arzas iew tek scie */
+ 
+ 
+char
+ 
+d[
+MAX _LIN E
+], b;
+ 
+ 
+int
+ 
+k, l;
+ 
+ 
+k=0; l= 0;
+ 
+ 
+gets(d );
+ 
+ 
+while
+ 
+((b =d[ k]) != 
+'
+\
+0'
+)
+ 
+ 
+{
+ 
+ 
+ 
+if
+ 
+(b == 
+' a'
+) l++;
+ 
+ 
+ 
+k++;
+ 
+ 
+}
+ 
+ 
+printf (
+"%s
+\
+n%d
+\
+n"
+, d,l ) ;
+ 
+}
+ 
+uui •
+-
+ 
+tabl ice 
+teksto we
+ 
+#inclu de
+ 
+< stdi o.h>
+ 
+#inclu de
+ 
+< stdl ib.h >
+ 
+#defin e
+ 
+MA X_LI NE
+ 
+2 56
+ 
+int
+ 
+ma in()
+ 
+{
+ 
+/*Ile razy lit era apow t arzas iew tek scie */
+ 
+ 
+char
+ 
+d[
+MAX _LIN E
+], b;
+ 
+ 
+int
+ 
+k =0, l= 0;
+ 
+ 
+gets(d );
+ 
+ 
+while
+ 
+((b =d[ k++] )!= 
+'
+\
+0'
+)
+ 
+ 
+ 
+if
+ 
+(b == 
+' a'
+) l++;
+ 
+ 
+printf (
+"%s
+\
+n%d
+\
+n"
+, d,l ) ;
+ 
+}
+ 
+ 
+ 
+ 
+5.
+ 
+Funkcja 
+g ets( )
+ 
+-
+ 
+ÌÇı o]v]' Ì ’ı vˆ„ ˆ}Á˚P} Á˚i‚ ] ~µ’µÁ i ’ı uıˆ ] µu]˚’ ÌÌ i Á
+tablicy znakowej ws kazywanej pr zez st r . Ostatni znak linii (znak nowego wier sza 
+-
+ 
+'
+\
+n') 
+Ì’ı '›µ Ì˚„ ˚u ~Ìvl]˚ Œ
+\
+ì Œı}‚] ÌÁ„ v (µvli] i˚’ı ’ı„
+ 
+~Á ’lÍv ˆ} ı˚l ’
+ 
+w 
+›„ ÌÇ›ˆ oµ ›„ ÌÇ›ˆ s'ˆµ oµ vı„ (]˚v] v l}v]˚ ›o]lµXvli v
+spr awdza, czy jest miejs cedo zapisu w tablicy s tr .
+ 
+De kl ar ac ja : 
+ch ar
+ 
+*g et s(
+ch ar
+ 
+* st r) ;
+ 
+ 
+6.
+ 
+W
+’ lÍ v] l ˆ} ıo ]Ç
+ 
+t
+ 
+ˆ˚(]v]i ıo]Ç „ ˚Ì˚„ Áµi }ˆ›}Á]˚ˆv] P„ µ› i Á ›u]'] ]
+pr zypisuje nazwie (identyfikator owi) 
+tek st
+ 
+adr es zerowego elementu. Nie wolno zmienia
+
+ 
+Á„ ı}‚]
+teks t
+ 
+t
+ 
+i˚’ı ’ı Á’lÍv ›}Ìıl µ ıo]Ç }ˆıl }Á} ]ˆ˚vıÇ(]lı}„ 
+tekst
+ 
+nie 
+jest L
+-
+Àoµ Ìv }ÏvÇÁ
+
+ 
+po lewej s tr onie inst r ukcji pr zypisania.
+ 
+ „ÌÇ lsˆ
+ 
+1
+:
+ 
+ch ar
+ 
+s tr 1[ ] = 
+"a b cd e"
+; 
+// de bu ge r in fo rm a ti on : st r1 = 0 x0 01 2f e4 4 " ab cd e"
+ 
+uuh …e — ° png hY:h …e — e ee hi kk Q Q
+ 
+uuh …h — ° pog h : h… h—ee eh ik l Q Q
+ 
+ „ÌÇ lW
+ 
+ch ar
+ 
+s tr [2 56 ];
+ 
+ 
+ 
+ch ar
+ 
+* pt r = 
+NU LL
+;
+ 
+ 
+ 
+pt r = ge ts (s tr );  
+uu Y
+ 
+ 
+ 
+// wp ro wa dz on yc h z m on it or a, p tr  
+w
+ 
+ 
+ 
+d o st r:  
+ 
+ 
+ 
+//
+ 
+st r 0x 00 12 fe 60  
+" a bc de f"
+ 
+c ha r
+[ 25 6]
+ 
+ 
+//
+ 
+pt r 0x 00 12 fe 60  
+" a bc de f"
+ 
+c ha r
+ 
+*
+ 
+ „ÌÇ lW
+ 
+ch ar
+ 
+* pt r = 
+NU LL
+; 
+/ /p tr 0 x0 00 00 00 0 
+ 
+ 
+pt r = 
+"a bc de fg "
+; 
+// pt r 0x 00 41 56 3c " ab cd e fg " ch ar *
+ 
+uu` \ 
+ \
+ 
+ 
+// Ko d po pr aw ny :
+ 
+
+ 
+W
+Ç ˆÌ
+Inf
+o rmatyki 
+i 
+M atem aty ki
+ 
+Po lite chniki K rako wskiej                       
+3
+ 
+ 
+pt r = (
+c ha r
+ 
+*) ma l lo c( 25 6 * 
+si ze of
+(
+c ha r
+) ) ; 
+// dy na mi cz ne w yd zi el e ni e
+ 
+ •
+ 
+ 
+if
+ 
+( !p tr )
+ 
+ 
+{
+ 
+ 
+ 
+pr in tf (
+Q 
+\
+n"
+);
+ 
+ 
+ 
+ex it (1 );
+ 
+ 
+}
+ 
+ 
+sp ri nt f( pt r,  
+" ab c de fg "
+);
+ 
+ 
+// .. .. .. .. .. .. .. . .. .. .. .. .. .. .. .. .. .. .. . ..
+ 
+ 
+//
+  
+ 
+w
+ 
+ `
+ 
+ 
+if
+ 
+( pt r)
+ 
+ 
+ 
+fr ee (p tr );
+ 
+ 
+pt r = 
+NU LL
+;
+ 
+ 
+uuj •
+-
+ 
+tabl ice a 
+
+ 
+#inclu de
+ 
+< stdi o.h>
+ 
+#inclu de
+ 
+< stdl ib.h >
+ 
+#defin e
+ 
+MA X_LI NE
+ 
+2 56
+ 
+int
+ 
+ma in()
+ 
+{
+ 
+/*Ile razy lit era apow t arzas iew tek scie */
+ 
+ 
+char
+ 
+d[
+MAX _LIN E
+], *dd;
+ 
+ 
+int
+ 
+l;
+ 
+ 
+l = 0;
+ 
+ 
+dd=g ets( d);
+ 
+ 
+while
+ 
+(*dd != 
+'
+\
+0'
+)
+ 
+ 
+{
+ 
+ 
+ 
+if
+ 
+(*d d==  
+'a'
+)l+ +;
+ 
+ 
+ 
+dd++;
+ 
+ 
+}
+ 
+ 
+printf (
+"%s
+\
+n%d
+\
+n"
+, d,l ) ;
+ 
+}
+ 
+uuk •
+-
+ 
+
+ 
+#inclu de
+ 
+< stdi o.h>
+ 
+#inclu de
+ 
+< stdl ib.h >
+ 
+#defin e
+ 
+MA X_LI NE
+ 
+2 56
+ 
+ 
+int
+ 
+ma in()
+ 
+{
+ 
+/*Ile razy lit era apow t arzas iew tek scie */
+ 
+ 
+char
+ 
+d[
+MAX _LIN E
+], *dd;
+ 
+ 
+int
+ 
+l;
+ 
+ 
+l = 0;
+ 
+ 
+dd=g ets( d);
+ 
+ 
+while
+ 
+(*dd )
+ 
+ 
+ 
+if
+ 
+(*d d++ == 
+' a'
+) l++;
+ 
+ 
+printf (
+"%s
+\
+n%d
+\
+n"
+, d,l ) ;
+ 
+}
+ 
+ 
+7.
+ 
+I ns tr ukc j a sw i tc h, c as e
+ 
+-
+ 
+ Á„ µv Á]˚o}l„ }ıv˚P ÁÇ}„ µ oµ ›„ Ì˚sÌv Ì]'l] ı˚i
+]v’ı „ µli]u}Ï˚ÁÇl}vÇÁ
+
+ 
+ˆ˚ÇÌ]ÁÇsÌvv›}ˆ’ı Á„ ı}i˚ˆvÌu]˚vv˚iX
+ }Ïo] ]v’ı„ µli]
+swi tch
+ 
+ v]˚›Áov uv }ˆ u}Ïo] (µvli]
+if
+ 
+, jednak 
+µÏÇÁv v]˚l ÇZ ›„ ÌÇ›ˆlZ i˚’ı ÌvÌv l}„ ÌÇ’ıv] ˆo ’ÌÇl}‚] ˆÌ]sv] 
+›„ }P„  ıl}ˆµÏÇvli]
+if
+.
+ 
+]W
+ 
+switch
+ 
+(zm ienn a)
+ 
+{
+ 
+case
+ 
+w arto sc_1 :
+ 
+ 
+uu 
+ 
+ 
+break
+;
+ 
+case
+ 
+w arto sc_2 :
+ 
+ 
+uu 
+ 
+ 
+break
+;
+ 
+ 
+//...
+ 
+case
+ 
+w arto sc_n :
+ 
+ 
+uu 
+ 
+ 
+break
+;
+ 
+defaul t
+:
+ 
+ 
+uu 
+ 
+ 
+break
+;
+ 
+}
+ 
+P} „Çıu]sv]W 
+ 
+1.
+ 
+]Ì˚v] Á„ı}
+zmienna
+ 
+ 
+2.
+ 
+
+zmienna == war tosc_i
+ 
+-
+ 
+ÁÇ l} vv ]Pµ ]v’ı„µl í X
+]P ]v’ı„ µli] v
+, go to  3 ; 
+
+zmienna != war tosc_i
+ 
+-
+ 
+]Pli]
+default
+, go to  3 ;  
+ 
+
+ 
+W
+Ç ˆÌ
+Inf
+o rmatyki 
+i 
+M atem aty ki
+ 
+Po lite chniki K rako wskiej                       
+4
+ 
+3.
+ 
+P ierwszy o perato r po za blokiem 
+switch
+ 
+ 
+W przy padku gdy o perator 
+default
+ 
+i˚’ıu ]v]'ıÇlo„i]l
+switch
+: 
+ 
+1.
+ 
+]Ì˚v] Á„ı}
+zmienna
+ 
+ 
+2.
+ 
+
+zmienna ==  war tosc_i
+ 
+-
+ 
+ÁÇ l} vv ]Pµ ]v’ı„µli íY X
+]P ]v’ı „ µli] v
+;  pierwszy 
+o perato r po za blokiem  
+switch
+ 
+ ıv]u } ›˚„ı} „˚u ]Pµ ]v’ı„µli] u} Ï˚ Ç 
+break;
+ 
+-
+ 
+›„Ì˚„Ç } v ˆÌ]sv
+switch
+ 
+i 
+przek azuje sterowanie do  pierwszego o perato ra po zablo kiem  
+switch
+.
+ 
+sw it ch
+ 
+( i)
+ 
+{
+ 
+ca se
+ 
+-
+1:
+ 
+ 
+n+ +;
+ 
+ 
+br ea k
+;
+ 
+ca se
+ 
+0:
+ 
+ 
+z+ +;
+ 
+ 
+br ea k
+;
+ 
+ca se
+ 
+1:
+ 
+ 
+p+ +;
+ 
+ 
+br ea k
+;
+ 
+}
+ 
+8.
+ 
+ „ÌÇ l o]ÌÁÇ’ı›] „Ìı˚} ˆ}X
+ 
+// In st ru kc je s wi t ch , ca se , br ea k, c on ti n ue
+ 
+#i nc lu de
+ 
+< st di o. h >
+ 
+#i nc lu de
+ 
+< st dl ib . h>
+ 
+#d ef in e
+ 
+MA X_ LI NE
+ 
+25 6
+ 
+ 
+in t
+ 
+ma in ()
+ 
+{
+ 
+ 
+/* L ic zb a wy st
+
+pie
+
+ 
+l it er a ,
+ 
+b or az l it e r od b d o y */
+ 
+ 
+ch ar
+ 
+d[
+M AX _L IN E
+] , * dd , b;
+ 
+ 
+in t
+ 
+l, k , m;
+ 
+ 
+l = k = m = 0;
+ 
+ 
+dd = g et s( d) ;
+ 
+ 
+wh il e
+ 
+(b = * dd ++ , b ! = 
+'
+\
+0'
+)
+ 
+ 
+{
+ 
+ 
+ 
+if
+ 
+( !( b >=  
+' a'
+ 
+& & b < = 
+'y '
+) ) 
+co nt in ue
+;
+ 
+ 
+ 
+sw it ch
+ 
+( b)
+ 
+ 
+ 
+{
+ 
+ 
+ 
+ca se
+ 
+' a'
+:
+ 
+ 
+ 
+ 
+l+ +;
+ 
+ 
+ 
+ 
+br ea k
+;
+ 
+ 
+ 
+ca se
+ 
+' b'
+:
+ 
+ 
+ 
+ 
+k+ +;
+ 
+ 
+ 
+de fa ul t
+:
+ 
+ 
+ 
+ 
+m+ +;
+ 
+ 
+ 
+}
+ 
+ 
+}
+ 
+ 
+pr in tf (
+" %d % d %d
+\
+n"
+, l, k , m) ;
+ 
+}
+ 
+ 
+9.
+ 
+}Ì˚]vl} ÁÇÁÇ „Ï˚v] ›„Ì˚]vl} Á˚
+.
+ 
+}Ì˚]vl} ÁÇ˚’ı} ›˚„ı} „˚u}]Ï’ÌÇu„]}„Ç ı˚]˚ o˚Á} ’ı„} vv ÌvÇ X
+ 
+ „Ï˚v]˚˚]vl} Á ı}Á„Ï˚v] ›} ’ı]W
+ 
+ 
+wy ra ze ni e_ 1, w yr a ze ni e_ 2
+ 
+}ÁÇ „Ï˚v]˚]vl} Á˚P}i˚’ı „ı} ‚
+wyra ze ni e_ 2.
+ 
+ 
+
+ 
+W
+Ç ˆÌ
+Inf
+o rmatyki 
+i 
+M atem aty ki
+ 
+Po lite chniki K rako wskiej                       
+5
+ 
+10.
+ 
+ „ÌÇ l o]Ì
+’s i˚ˆv o]v]] ˚l’ı µ
+.
+ 
+uuh •
+ 
+#i nc lu de
+ 
+< st di o. h >
+ 
+#i nc lu de
+ 
+< st dl ib . h>
+ 
+#d ef in e
+ 
+MA X_ LI NE
+ 
+25 6
+ 
+ 
+in t
+ 
+ma in ()
+ 
+{
+ 
+ 
+ch ar
+ 
+d[
+M AX _L IN E
+] , * dd , p = 
+' '
+, b ;
+ 
+ 
+in t
+ 
+l = 0;
+ 
+ 
+dd = g et s( d) ;
+ 
+ 
+pr in tf (
+" %s
+\
+n"
+, d d );
+ 
+ 
+/* T u zo st an ie w y pr ow ad zo ny c a
+
+y wc zy ta n y te ks t */
+ 
+ 
+wh il e
+ 
+(( b = *d d)  !=  
+'
+\
+0'
+)
+ 
+ 
+{
+ 
+ 
+ 
+if
+ 
+( b !=  
+' '
+)
+ 
+ 
+ 
+ 
+if
+ 
+( p ==  
+' '
+) l+ + ;
+ 
+ 
+ 
+p = b;
+ 
+ 
+ 
+dd ++ ;
+ 
+ 
+}
+ 
+ 
+pr in tf (
+" %d
+\
+n"
+, l ) ;
+ 
+ 
+/* A t u zo st an ie  wy pr ow ad zo ny p us ty t ek s t */
+ 
+ 
+pr in tf (
+" %s
+\
+n"
+, d d );
+ 
+}
+ 
+ 
+11.
+ 
+ „ÌÇ l o]Ì
+’s i˚ˆv o]v]] ˚l’ı µ
+t
+ 
+tablice w argum entach funkcji
+.
+ 
+uui •
+-
+ 
+ta bl i ce w a rg um en ta ch f un kc j i
+ 
+#i nc lu de
+ 
+< st di o. h >
+ 
+#i nc lu de
+ 
+< st dl ib . h>
+ 
+#d ef in e
+ 
+MA X_ LI NE
+ 
+25 6
+ 
+in t
+ 
+il e_ sl ow _1 (
+c h ar
+ 
+* ), i le _s lo w_ 2(
+ch ar
+ 
+*) , il e_ sl ow _3 (
+c ha r
+ 
+*) , i le _s lo w(
+ch ar
+*) ;
+ 
+ 
+in t
+ 
+ma in ()
+ 
+{
+ 
+ 
+ch ar
+ 
+d[
+M AX _L IN E
+] , * dd ;
+ 
+ 
+in t
+ 
+l;
+ 
+ 
+dd = g et s( d) ;
+ 
+ 
+/* T u zo st an ie w y pr ow ad zo ny c al y wc zy ta n y te ks t */
+ 
+ 
+pr in tf (
+" %s
+\
+n"
+, d d );
+ 
+ 
+l = il e_ sl ow _1 (d ) ;
+ 
+ 
+pr in tf (
+" %d
+\
+n"
+, l ) ;
+ 
+ 
+ 
+l = il e_ sl ow _2 (d d );
+ 
+ 
+pr in tf (
+" %d
+\
+n"
+, l ) ;
+ 
+ 
+/* I t u zo st an ie  wy pr ow ad zo ny c al y wc zy t an y te ks t */
+ 
+ 
+pr in tf (
+" %s
+\
+n"
+, d d );
+ 
+ 
+ 
+l = il e_ sl ow _3 (d ) ;
+ 
+ 
+pr in tf (
+" %d
+\
+n"
+, l ) ;
+ 
+ 
+ 
+l = il e_ sl ow (d d) ;
+ 
+ 
+pr in tf (
+" %d
+\
+n"
+, l ) ;
+ 
+}
+ 
+ 
+ 
+ 
+
+ 
+W
+Ç ˆÌ
+Inf
+o rmatyki 
+i 
+M atem aty ki
+ 
+Po lite chniki K rako wskiej                       
+6
+ 
+in t
+ 
+il e_ sl ow _1 (
+c h ar
+ 
+te
+[ ])
+ 
+{
+ 
+ 
+/* I le j es t sl ow  w li ni i te ks tu . Ta bl ic e w a rg um en ta ch f un kc ji * /
+ 
+ 
+ch ar
+ 
+p =  
+' '
+, b;
+ 
+ 
+in t
+ 
+l = 0, i = 0 ;
+ 
+ 
+wh il e
+ 
+(b =  
+te
+[ i+ + ])
+ 
+ 
+{
+ 
+ 
+ 
+if
+ 
+( b !=  
+' '
+)
+ 
+ 
+ 
+ 
+if
+ 
+( p ==  
+' '
+) l+ + ;
+ 
+ 
+ 
+p = b;
+ 
+ 
+}
+ 
+ 
+re tu rn
+ 
+l;
+ 
+}
+ 
+ 
+in t
+ 
+il e_ sl ow _2 (
+c h ar
+ 
+*
+te
+)
+ 
+{
+ 
+ 
+u‰ \ ‰u
+ 
+ 
+ch ar
+ 
+p =  
+' '
+, b;
+ 
+ 
+in t
+ 
+l = 0;
+ 
+ 
+wh il e
+ 
+(b = *
+te
+)
+ 
+ 
+{
+ 
+ 
+ 
+if
+ 
+( b !=  
+' '
+)
+ 
+ 
+ 
+ 
+if
+ 
+( p ==  
+' '
+) l+ + ;
+ 
+ 
+ 
+p = b;
+ 
+ 
+ 
+te
+++ ;
+ 
+ 
+}
+ 
+ 
+re tu rn
+ 
+l;
+ 
+}
+ 
+ 
+in t
+ 
+il e_ sl ow _3 (
+c h ar
+ 
+*
+te
+)
+ 
+{
+ 
+ 
+u‰ \° ° ‰u
+ 
+ 
+ch ar
+ 
+p =  
+' '
+, b;
+ 
+ 
+in t
+ 
+l = 0, i = 0 ;
+ 
+ 
+wh il e
+ 
+(b =  
+te
+[ i] )
+ 
+ 
+{
+ 
+ 
+ 
+if
+ 
+( b !=  
+' '
+)
+ 
+ 
+ 
+ 
+if
+ 
+( p ==  
+' '
+) l+ + ;
+ 
+ 
+ 
+p = b;
+ 
+ 
+ 
+i+ +;
+ 
+ 
+}
+ 
+ 
+re tu rn
+ 
+l;
+ 
+}
+ 
+ 
+in t
+ 
+il e_ sl ow (
+c ha r
+ 
+*
+te
+)
+ 
+{
+ 
+ 
+ch ar
+ 
+p , b = 
+' '
+;
+ 
+ 
+in t
+ 
+l = 0;
+ 
+ 
+wh il e
+ 
+(p = b , b = *
+te
+++ )
+ 
+ 
+ 
+if
+ 
+( b !=  
+' '
+ 
+& &  p ==  
+' '
+) l+ +;
+ 
+ 
+re tu rn
+(l );
+ 
+}
+ 
+ 
+12.
+ 
+Operacje na tekst ach
+ 
+t
+ 
+wybrane funkcje
+.
+ 
+Funkcja 
+s trc py( )
+ 
+t
+ 
+vli l}›]µ swµZ Ìv ~’ „ ˆ ıo]Ç Ìv ~ˆ˚’ı
+). Funkcja nie  
+’›„ ÁˆÌ Ì swµZ l}›]}Áv Ìu]˚‚ ] ’]' Á ıo]Ç ˆ}˚o}]˚ ]’ıv] Á„ lı„ 
+Á’ lÌÇÁss'ˆvÇl}vv]˚X
+ 
+De kl ar ac ja : 
+ch ar
+ 
+* st rc py (
+c ha r
+ 
+* de st , 
+c on st
+ 
+c ha r
+ 
+* sr c) ;
+ 
+ 
+
+ 
+W
+Ç ˆÌ
+Inf
+o rmatyki 
+i 
+M atem aty ki
+ 
+Po lite chniki K rako wskiej                       
+7
+ 
+Funkcja 
+s trc at( )
+ 
+t
+ 
+ }›]]PÌv~’ı„ ]vP’ı„vl}wµµ~’ ı„ ]vP’ı„ÌuÇl
+’Çu }o l}w
+\
+ìZ}Áv (µvli] i˚’ı v]˚}l„˚‚o}v µ(}„ ’ı„ }„Ì ’ı „„ }u
+ÁÌ ›}l„ ÇÁiXvli ÌÁ„  Á’lÍv ˆ ’ı„] ]’ Á„ ı}‚U lı„ 
+ws
+lÌÇÁss'ˆvÇl}vv]˚X
+ 
+De kl ar ac ja : 
+ch ar
+ 
+* st rc at (
+c ha r
+ 
+* st rT o,  
+co ns t
+ 
+ch ar
+ 
+* s tr Fr om );
+ 
+ 
+Funkcja 
+s trc mp( )
+ 
+t
+ 
+~Ìviˆµ ]o]}ı D’ı„ ]vPXZ 
+t
+ 
+i˚ ]P Ìv ’ı„ ]vPí ]
+’ı „ ]vPî X„  „ ıÇ›µ
+ 
+RetVal:  
+ 
+ 
+< 0  
+t
+ 
+str ing1 < str ing2  
+ 
+=0 
+t
+ 
+str ing1 == st r ing2  
+t
+ 
+i˚lÏˆÌvÌ’ı„ ]vPíi˚’„}ˆ›}Á]˚ˆv]˚uµ
+znakowi ze s tr ing2  
+ 
+> 0  
+t
+ 
+str ing1 > str ing2
+ 
+De kl ar ac ja : 
+in t
+ 
+s tr cm p(
+co ns t
+ 
+ch ar
+ 
+* s tr i ng 1,  
+c on st
+ 
+c ha r
+ 
+* st ri n g2 );
+ 
+ 
+vÁv}‚]WÁi'ÌÇ›„ÌÇ i'ı}Ï’ı„]vPí’ı„]vPîUi˚‚o]l} ˆ›]˚„Á’Ì˚P}’Çu } oµÌ˚
+’ı„]vPí i˚’ Á]' } ˆ l}ˆµ ›]˚„Á’Ì˚P} ’Çu } oµ Ì˚ ’ı„]vPî ›]˚„ ÌvÁv˚U
+›}Ávµi˚u ÇP]˚
+ 
+ 
+Funkcja 
+s trl en( )
+ 
+t
+ 
+(
+<str ing.h>)  
+-
+ 
+}o]Ì ˆsµP swµ Z ’ı „ ˆÌ]sv ›}o˚P v Ìo]Ì v]µ 
+Ìv Ï ˆ} v›}ılv]
+ 
+0
+ 
+(znaku '
+\
+0 ').
+ 
+0
+ 
+v] i˚’ı Áo]Ìv ˆ} ˆsµP}‚] ›„ ÌÇ›ˆlµ
+swµZl}wÌ}vÇZ
+ 
+0
+ 
+i˚i]sv ıl„˚‚o}v˚X
+ 
+Zwr aca d
+sµPµZ ı„ X
+ 
+De kl ar ac ja :
+ 
+in t
+ 
+s tr le n(
+ch ar
+ 
+* st r) ;
+ 
+ 
+Funkcja
+ 
+g etc har( )
+ 
+-
+ 
+ÌÇ Ìv Ì˚ ’ıvˆ„ ˆ}Á˚P} Á˚i‚] ] P ’ıuıˆ µ’µÁX
+]˚
+ 
+getchar ()
+ 
+i˚’ıÁÏv ÇÁ}sv]µ
+ 
+getc(stdin).
+ 
+De kl ar ac ja : 
+in t
+ 
+g et ch ar (
+v oi d
+);
+ 
+ 
+Funkcja 
+putc har
+ 
+(
+ 
+)
+ 
+ 
+-
+ 
+ÁÇ Ìv v ’ıvˆ„ ˆ}Á ÁÇi‚ ]˚XÁ}sv ›µıZ„
+ 
+(
+ 
+c
+ 
+) jest 
+„ÁÏvÁÇÁ }sv]µ
+ 
+putc(c, st dout) .
+ 
+De kl ar ac ja :
+ 
+in t
+ 
+p ut ch ar (
+i nt
+ 
+c
+);
+ 
+ 
+13.
+ 
+iˆÍ ÌÇ i'Ç „v˚P}Ìv ı˚l ‚]˚X
+ 
+14.
+ 
+w l’˚„ÁÇ ’ı›]˚v] ÁÇ „v˚P}lµX
+ 
+15.
+ 
+ ]˚wlÏˆÁÇ ’ı›]˚vÁÇ „v˚P}vÇlX
+ 
+16.
+ 
+ }˚l ’ı˚P}ı˚ l’
+t
+u.
+ 
+17.
+ 
+ }˚l ’ı ˆlµˆv ›} ÌÇ} v]˚˚P}˚l ’µX
+ 
+18.
+ 
+„} ›} vµ Ì]u›o˚u ˚v oP} „Çıu l „Ç ›„Ì˚’µv ÌÁ„ı} ‚ 
+-
+elem ento wej tablicy 
+Ç lo]Ìv } i˚ˆv ›} ÌÇ i' c P „'_ ~ı Ìv ›]˚„Á’ÌÇ ˚o˚u v u ]˚i’ ˆ„µP]˚P} ˆ„µP v
+trzeci, ...,o statni na pierwszy ).
+ 
+19.
+ 
+Napisz funkcje :
+ 
+in t
+ 
+mo je _s tr cm p(
+c on st
+ 
+c ha r
+* , 
+co ns t
+ 
+ch ar
+* );
+ 
+ch ar
+* mo je _s tr ca t (
+c ha r
+* , 
+co ns t
+ 
+ch ar
+*) ;
+ 
+ch ar
+* mo je _s tr cp y (
+c ha r
+* , 
+co ns t
+ 
+ch ar
+*) ;
+ 
+„˚o]Ìµ ı˚ ’u } ›˚„ } ’ıvˆ„ˆ}Á˚ (µvli˚ ’ı„u › ’ı„ı
+strcpy  z biblio te ki 
+<st ring.h>.
+ 
+
+ 
+W
+Ç ˆÌ
+Inf
+o rmatyki 
+i 
+M atem aty ki
+ 
+Po lite chniki K rako wskiej                       
+8
+ 
+ 
+20.
+ 
+ „Ì˚vo]Ìµı„Ç ] ›„Çl„} l} Á v’ı' ›µi˚Çls ˆÇ}ÁÇ lsˆ
+u 
+5
+:
+ 
+htt p: // to rus.uck.pk.edu.pl/~fialko .sergiy/ text/ CC/ przykl/ WW5_1 .pdf
+ 
+htt p: // to rus.uck.pk.edu.pl/~fialko .sergiy/ text/ CC/ przykl/ WW5_2 .pdf
+ 
+htt p: // to rus.uck.pk.edu.pl/~fialko .sergiy/ text/ CC/ przykl/ WW5_3 .pdf
+ 
+ ›„ÌÇls ˆÇ ’ı'›v ›} ˆ˚u W
+ 
+htt p: // to rus.uck.pk.edu.pl/~fialko .sergiy/ text/ CC/ przykl/
+ 
+ 
+ „ ˚‚]
+ 
+oznaczone
+ 
+lµ„ ’ÇÁ
+ 
+›}Z}ˆÌ
+ 
+z
+ 
+„vÇZ
+ 
+Í„˚s
+ 
+inter netowych.
+ 
+ 
