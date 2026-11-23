@@ -36,7 +36,7 @@ int main()
     printf("Wybierz tryb: ");
     if (scanf("%d", &tryb) != 1 || (tryb != 1 && tryb != 2))
     {
-        printf("Nieprawidlowy tryb.\n");
+        printf("Nieprawidlowy tryb\n");
         return 1;
     }
     getchar();
@@ -130,7 +130,7 @@ int main()
 
             if (!znaleziono)
             {
-                printf("Nieprawidlowy kod Morse'a.\n");
+                printf("Nieprawidlowy kod morsa\n");
                 return 1;
             }
         }

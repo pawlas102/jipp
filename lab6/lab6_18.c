@@ -33,7 +33,7 @@ int main()
         printf("Szukane slowo: %s\n", slowo);
     }
     else
-        printf("Nie ma slowa o takiej pozycji.\n");
+        printf("Nie ma slowa o takiej pozycji\n");
 
     return 0;
 }
